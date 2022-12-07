@@ -2,12 +2,16 @@
 
 module.exports = {
  
-   content: ["./App.{js,jsx,ts,tsx}", "./<custom directory>/**/*.{js,jsx,ts,tsx}"],
+  content: ["./App.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
     theme: {
       extend: {
 
         
         colors: {
+          color1:"#0E1E38",
+          color2:"#F26324",
+          color3:"#838C43",
+
           brand: {
             1000: "#0E1E38",
             900: "#858C47",
